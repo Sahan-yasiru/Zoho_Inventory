@@ -1,9 +1,9 @@
 package org.com.application.contorller;
 
 import lombok.RequiredArgsConstructor;
-import org.com.application_backend.dto.CategoryDTO;
-import org.com.application_backend.service.custom.CategoryService;
-import org.com.application_backend.util.APIResponse;
+import org.com.application.dto.CategoryDTO;
+import org.com.application.service.custom.CategoryService;
+import org.com.application.util.APIResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

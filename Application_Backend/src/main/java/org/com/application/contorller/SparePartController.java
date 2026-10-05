@@ -1,9 +1,9 @@
 package org.com.application.contorller;
 
 import lombok.RequiredArgsConstructor;
-import org.com.application_backend.dto.SparePart.SparePartDTO;
-import org.com.application_backend.service.custom.SparePartService;
-import org.com.application_backend.util.APIResponse;
+import org.com.application.dto.SparePart.SparePartDTO;
+import org.com.application.service.custom.SparePartService;
+import org.com.application.util.APIResponse;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

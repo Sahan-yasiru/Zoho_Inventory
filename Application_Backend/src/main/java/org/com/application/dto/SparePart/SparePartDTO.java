@@ -4,9 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.com.application_backend.dto.BrandDTO;
-import org.com.application_backend.dto.CategoryDTO;
-import org.com.application_backend.dto.Supplier.SupplierDTO;
+import org.com.application.dto.BrandDTO;
+import org.com.application.dto.CategoryDTO;
+import org.com.application.dto.Supplier.SupplierDTO;
 
 import java.util.List;
 

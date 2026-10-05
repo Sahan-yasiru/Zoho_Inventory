@@ -3,7 +3,7 @@ package org.com.application.contorller;
 import lombok.RequiredArgsConstructor;
 
 import org.com.application.dto.BrandDTO;
-import org.com.application.service.BrandService;
+import org.com.application.service.custom.BrandService;
 import org.com.application.util.APIResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +16,6 @@ import java.util.List;
 public class BrandController {
 
     private final BrandService brandService;
-
     @GetMapping
     public ResponseEntity<APIResponse<List<BrandDTO>>> getAllBrands() throws Exception {
         return ResponseEntity.ok(new APIResponse<>(200, "Brands retrieved successfully", brandService.getAll()));

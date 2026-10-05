@@ -5,9 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.com.application_backend.entity.Brand;
-import org.com.application_backend.entity.Category;
-import org.com.application_backend.entity.Supplier.Supplier;
+import org.com.application.entity.Brand;
+import org.com.application.entity.Category;
+import org.com.application.entity.Supplier.Supplier;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 

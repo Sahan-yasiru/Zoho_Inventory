@@ -1,8 +1,9 @@
 package org.com.application.service.custom.supplier;
 
-import org.com.application_backend.dto.SparePart.SparePartDTO;
-import org.com.application_backend.dto.Supplier.SupplierDTO;
-import org.com.application_backend.service.SuperService;
+
+import org.com.application.dto.SparePart.SparePartDTO;
+import org.com.application.dto.Supplier.SupplierDTO;
+import org.com.application.service.SuperService;
 
 import java.util.List;
 

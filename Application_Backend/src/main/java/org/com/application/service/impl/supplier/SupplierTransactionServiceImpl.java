@@ -1,11 +1,10 @@
 package org.com.application.service.impl.supplier;
 
 import lombok.AllArgsConstructor;
-import org.com.application_backend.dto.Supplier.SupplierTransactionDTO;
-import org.com.application_backend.entity.Supplier.SupplierTransaction;
-import org.com.application_backend.exception.CustomException;
-import org.com.application_backend.repo.Supplier.SupplierTransactionRepository;
-import org.com.application_backend.service.custom.supplier.SupplierTransactionService;
+import org.com.application.dto.Supplier.SupplierTransactionDTO;
+import org.com.application.exception.CustomException;
+import org.com.application.repo.Supplier.SupplierTransactionRepository;
+import org.com.application.service.custom.supplier.SupplierTransactionService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

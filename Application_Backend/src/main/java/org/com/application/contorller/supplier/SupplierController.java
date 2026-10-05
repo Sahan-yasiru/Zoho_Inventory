@@ -2,10 +2,10 @@ package org.com.application.contorller.supplier;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.com.application_backend.dto.SparePart.SparePartDTO;
-import org.com.application_backend.dto.Supplier.SupplierDTO;
-import org.com.application_backend.service.custom.supplier.SupplierService;
-import org.com.application_backend.util.APIResponse;
+import org.com.application.dto.SparePart.SparePartDTO;
+import org.com.application.dto.Supplier.SupplierDTO;
+import org.com.application.service.custom.supplier.SupplierService;
+import org.com.application.util.APIResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

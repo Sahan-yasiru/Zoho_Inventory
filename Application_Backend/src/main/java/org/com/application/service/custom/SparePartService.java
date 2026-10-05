@@ -1,7 +1,7 @@
-package org.com.application.service;
+package org.com.application.service.custom;
 
-import org.com.application_backend.dto.SparePart.SparePartDTO;
-import org.com.application_backend.service.SuperService;
+import org.com.application.dto.SparePart.SparePartDTO;
+import org.com.application.service.SuperService;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 

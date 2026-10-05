@@ -26,6 +26,7 @@ public class SupplierDTO {
     @Pattern(
             regexp = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$",
             message = "Invalid email address"
+
     )
     private String email;
 

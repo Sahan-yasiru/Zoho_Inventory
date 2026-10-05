@@ -1,23 +1,10 @@
 package org.com.application.service.impl;
 
 import lombok.AllArgsConstructor;
-import org.com.application_backend.dto.SparePart.SparePartDTO;
-import org.com.application_backend.dto.Supplier.SupplierDTO;
-import org.com.application_backend.entity.Brand;
-import org.com.application_backend.entity.Category;
-import org.com.application_backend.entity.Inventory;
-import org.com.application_backend.entity.Supplier.Supplier;
-import org.com.application_backend.entity.order.Order;
-import org.com.application_backend.entity.order.OrderStatus;
-import org.com.application_backend.entity.sparepart.Img;
-import org.com.application_backend.entity.sparepart.SparePart;
-import org.com.application_backend.exception.CustomException;
-import org.com.application_backend.repo.InventoryRepository;
-import org.com.application_backend.repo.SparePartRepository;
-import org.com.application_backend.repo.Supplier.SupplierRepository;
-import org.com.application_backend.repo.order.OrderRepository;
-import org.com.application_backend.service.custom.InventoryService;
-import org.com.application_backend.service.custom.SparePartService;
+import org.com.application.dto.SparePart.SparePartDTO;
+import org.com.application.repo.SparePartRepository;
+import org.com.application.repo.Supplier.SupplierRepository;
+import org.com.application.service.custom.SparePartService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
